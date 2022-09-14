@@ -11,7 +11,7 @@ import Whitelist from '../lib/Whitelist';
 import { toast } from 'react-toastify';
 import BeHappyYou1 from '../lib/BehappyYou1'
 
-const ContractAbi = require('../lib/BeHappyYou1.json').abi;
+const ContractAbi = require('../../../../smart-contract/artifacts/contracts/' + CollectionConfig.contractName + '.json').abi;
 
 interface Props {
 }
