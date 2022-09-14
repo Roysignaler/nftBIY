@@ -9,8 +9,9 @@ import CollectionStatus from './CollectionStatus';
 import MintWidget from './MintWidget';
 import Whitelist from '../lib/Whitelist';
 import { toast } from 'react-toastify';
+import BeHappyYou1 from '../lib/BehappyYou1'
 
-const ContractAbi = require('../../../../../smart-contract/artifacts/contracts/BeHappyYou.json').abi;
+const ContractAbi = require('../lib/BeHappyYou1.json').abi;
 
 interface Props {
 }
